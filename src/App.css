@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.App h1{
+  height: 50px;
+  text-transform: uppercase;
+  background-color: wheat;
+  color: #685f5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task {
+  margin-top: 17px;
+  margin-left: 39px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  /* border: 1px solid #ccc; */
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.task.done {
+  text-decoration: line-through;
+}
+
+button {
+  border-radius: 0px 10px 10px 0px;
+  width: 61px;
+  height: 33px;
+  background-color: #008fff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-field{
+  width: 59%;
+  /* border: none; */
+  margin-top: 34px;
+  height: 32px;
+  border-radius: 19px;
+  /* border: none; */
+  background-color: white;
+}
+
+.container{
+  height: 500px;
+  width: 70%;
+  background-color: wheat;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.line{
+  width: auto;
+  height: 2px;
+  background-color: #685f5f;
+}
